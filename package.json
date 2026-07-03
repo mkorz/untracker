@@ -1,5 +1,5 @@
 {
-  "name": "tracking-url-decoder",
+  "name": "untracker",
   "version": "1.0.0",
   "private": true,
   "description": "A private Chrome extension that unwraps redirect/tracking URLs (like ad network or affiliate links) to find the real destination — useful when an adblocker blocks the tracking domain itself and the link never loads.",

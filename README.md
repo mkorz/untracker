@@ -1,4 +1,4 @@
-# Tracking URL Decoder
+# Untracker
 
 A private Chrome extension that unwraps redirect/tracking URLs (like ad
 network or affiliate links) to find the real destination — useful when an
