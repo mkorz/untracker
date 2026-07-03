@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+}
+
+.popup {
+  width: 360px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-weight: 600;
+}
+
+#urlInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+#resultMessage {
+  word-break: break-all;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.error {
+  color: #c0392b;
+}
+
+.hidden {
+  display: none;
+}

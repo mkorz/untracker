@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tracking URL Decoder</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup">
+    <label for="urlInput">Page URL</label>
+    <input type="text" id="urlInput" placeholder="Paste a URL…" />
+
+    <button id="decodeBtn" type="button">Decode</button>
+
+    <p id="resultMessage" class="hidden"></p>
+    <p id="errorMessage" class="hidden error"></p>
+
+    <button id="navigateBtn" type="button" class="hidden" disabled>Navigate</button>
+  </div>
+
+  <script src="decoder.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

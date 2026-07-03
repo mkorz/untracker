@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Tracking URL Decoder",
+  "version": "1.0.0",
+  "description": "Decodes redirect/tracking URLs to find the real destination link, for use when an adblocker blocks the tracking domain.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
