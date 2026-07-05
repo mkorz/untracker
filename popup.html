@@ -2,20 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Tracking URL Decoder</title>
+  <title>Untracker</title>
   <link rel="stylesheet" href="popup.css" />
 </head>
 <body>
   <div class="popup">
-    <label for="urlInput">Page URL</label>
+    <header class="header">
+      <span class="header__mark" aria-hidden="true">🔗</span>
+      <h1 class="header__title">Untracker</h1>
+    </header>
+
+    <label class="field-label" for="urlInput">Page URL</label>
     <input type="text" id="urlInput" placeholder="Paste a URL…" />
 
-    <button id="decodeBtn" type="button">Decode</button>
+    <div class="actions">
+      <button id="decodeBtn" type="button" class="btn btn--secondary">Decode</button>
+    </div>
 
-    <p id="resultMessage" class="hidden"></p>
-    <p id="errorMessage" class="hidden error"></p>
+    <div id="resultMessage" class="result hidden"></div>
+    <p id="errorMessage" class="notice notice--error hidden"></p>
 
-    <button id="navigateBtn" type="button" class="hidden" disabled>Navigate</button>
+    <button id="navigateBtn" type="button" class="btn btn--primary hidden" disabled>Navigate</button>
   </div>
 
   <script src="decoder.js"></script>
